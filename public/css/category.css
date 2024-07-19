@@ -1,0 +1,131 @@
+.product {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 360px;
+    width: 365px;
+    margin-bottom: 20px;
+}
+
+.inline-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 318;
+    background: rgb(245, 245, 245)
+}
+
+.item:hover,
+.item:focus {
+    border: 1px solid #04AA6D;
+    cursor: pointer;
+}
+
+.item-name {
+    font-size: 0.75rem;
+    line-height: 14px;
+    text-align: center;
+}
+
+.item-price {
+    color: #04AA6D;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.filter {
+    background: rgb(245, 245, 245);
+   
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    margin-left: 72px;
+   
+    margin-right: 15px;
+    flex-flow: wrap;
+    padding: 10 0 10 15;
+}
+
+.filter input {
+    padding-left: 5px;
+}
+
+.filter button:hover,
+.filter button:focus {
+    background-color: #3e8e41;
+}
+
+.filter select{
+    padding:unset;
+}
+
+.filter input,
+.filter button,
+.filter select {
+    height: 30px;
+    width: 80px;
+    margin-left: 15px;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 5px
+}
+
+.filter input:hover,
+.filter button:hover,
+.filter select:hover,
+.filter input:focus,
+.filter button:focus,
+.filter select:focus,
+.filter input:focus-visible,
+.filter button:focus-visible,
+.filter select:focus-visible {
+    border: 1px solid #04AA6D;
+}
+
+.filter button {
+    background: #04AA6D;
+}
+
+.filter select {
+    width: 100px;
+    height: 30px;
+}
+
+button.newest {
+    height: 33px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(118, 118, 118);
+}
+
+.content-product {
+    margin: 15px;
+}
+
+.price h4 {
+    margin-top: unset;
+    margin-bottom: 15px;
+}
+
+.color-red {
+    color: red;
+}
+
+.custom_price {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.del-price {
+    text-align: center;
+}
+
+.inline-price {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

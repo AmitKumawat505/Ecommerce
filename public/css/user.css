@@ -1,0 +1,99 @@
+.panel-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-panel {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.loginForm {
+    height: 340px;
+    padding: 0 70px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.form-login {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+.form-login form {
+    margin: unset;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+body {
+    background-image: url("http://localhost/web-programming-e-commerce/public/images/logo/background.gif");
+    height: 100vh;
+    margin: unset;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.form-group {
+    width: 412px;
+}
+
+.form-group input {
+    height: 40px;
+    width: inherit;
+    border: 1px solid #a7a8a8;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+.btn-submit {
+    height: 40px;
+    padding: 10px;
+    width: 412px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: #0a9191;
+    color: white;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.color-green {
+    color: #0a9191;
+}
+
+h1.font-bold {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p.font-bold {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.message {
+    color: red;
+}
